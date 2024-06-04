@@ -1,0 +1,55 @@
+{
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "vscode-pets.petSize": "medium",
+    "vscode-pets.petColor": "black",
+    "yaml.schemas": {},
+    //Go settings
+    "go.inferGopath": true,
+    "redhat.telemetry.enabled": false,
+    "yaml.customTags": [
+        "!And",
+        "!And sequence",
+        "!If",
+        "!If sequence",
+        "!Not",
+        "!Not sequence",
+        "!Equals",
+        "!Equals sequence",
+        "!Or",
+        "!Or sequence",
+        "!FindInMap",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Join",
+        "!Join sequence",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!Sub sequence",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!ImportValue sequence",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Split sequence"
+    ],
+    "json.schemas": [],
+    "vscode-pets.theme": "castle",
+    "terminal.integrated.fontFamily": "Meslo LG L DZ For Powerline",
+    "aws.telemetry": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Material Theme Deepforest",
+    "[go]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "never"
+        },
+    },
+    "editor.codeActionsOnSave": {
+
+    },
+}
