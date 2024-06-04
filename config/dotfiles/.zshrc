@@ -77,6 +77,8 @@ alias ls='ls -GwF'
 # VSCode aliases
 alias zshrc='code ~/.zshrc'
 alias gitconfig='code ~/.gitconfig'
+
+# Have terminal show just username without IP
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
     prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
