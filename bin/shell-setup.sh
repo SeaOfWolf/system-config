@@ -3,9 +3,6 @@
 # Setup ~/.zshrc
 cp ~/.system-config/config/dotfiles/zshrc ~/.zshrc
 
-# Setup ~/.config/starship.toml
-cp ~/.system-config/config/starship/starship.toml ~/.config/starship.toml
-
 # Run ZSH so that everything intializes
 zsh
 
