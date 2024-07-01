@@ -7,6 +7,7 @@ cp ~/.system-config/config/dotfiles/zshrc ~/.zshrc
 zsh
 
 # Change user shell to zsh
-chsh
+chsh -s $(which zsh)
 
-# PENDING
+# Confirm it worked
+echo $SHELL
