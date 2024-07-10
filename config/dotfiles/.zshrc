@@ -77,6 +77,7 @@ alias ls='ls -GwF'
 # VSCode aliases
 alias zshrc='code ~/.zshrc'
 alias gitconfig='code ~/.gitconfig'
+alias sshconfig='code ~/.ssh/config'
 
 # Have terminal show just username without IP
 prompt_context() {
@@ -84,3 +85,6 @@ prompt_context() {
     prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
   fi
 }
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
