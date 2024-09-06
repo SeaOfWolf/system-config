@@ -37,7 +37,7 @@ spec:
       volumes:
         - name: credentials
           secret:
-            secretName: scimsession1
+            secretName: scimsessionam
             items:
               - key: latest
-                path: scimsession1
+                path: scimsessionam
